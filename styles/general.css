@@ -1,0 +1,18 @@
+body {
+    margin: 0;
+    background-color: black;
+    color: white;
+    width: 100%;
+    min-height: 100vh;
+}
+
+.footer {
+    position: sticky;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 10px;
+    background: black;
+    border-bottom: 1px solid white;
+    z-index: 10;
+}

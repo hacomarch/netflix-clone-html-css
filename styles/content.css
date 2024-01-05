@@ -1,0 +1,38 @@
+.content {
+    width: 100%;
+}
+
+.content1{
+    margin-top: 8px;
+}
+
+.content2 {
+    margin-top: 10px;
+}
+
+.content-title {
+    font-size: 20px;
+    font-weight: 800;
+    margin-bottom: 10px;
+    margin-left: 5px;
+}
+
+.content-grid {
+    margin-left: 3%;
+    margin-right: 3%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    gap: 3%;
+}
+
+.content-grid img {
+    width: 100%;
+    cursor: pointer;
+    transition: transform 0.3s ease-in-out;
+    /* ease-in-out : 시작과 끝은 느리게 / 중간에서는 빠르게 */
+}
+
+.content-grid img:hover {
+    transform: scale(1.5);
+    z-index: 11;
+}
